@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter15.Tests", "Chapter1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliTect.ConsoleView.Tests", "IntelliTect.ConsoleView.Tests\IntelliTect.ConsoleView.Tests.csproj", "{2A56B31A-E8F7-4913-BB27-DA523919E2AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter18", "Chapter18\Chapter18.csproj", "{90C4CD1B-4F0C-4E64-8A56-F9475FB74361}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{DAD3F37E-BC28-43E1-85F2-0CB5A383BF3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{2A56B31A-E8F7-4913-BB27-DA523919E2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A56B31A-E8F7-4913-BB27-DA523919E2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A56B31A-E8F7-4913-BB27-DA523919E2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C4CD1B-4F0C-4E64-8A56-F9475FB74361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C4CD1B-4F0C-4E64-8A56-F9475FB74361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C4CD1B-4F0C-4E64-8A56-F9475FB74361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C4CD1B-4F0C-4E64-8A56-F9475FB74361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

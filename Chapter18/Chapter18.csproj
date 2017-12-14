@@ -47,6 +47,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cryptographer.cs" />
     <Compile Include="EssentialCSharp.Chapter18.Listing18_06.cs" />
     <Compile Include="Listing18.05.CallingTaskContinueWith.cs" />
     <Compile Include="Listing18.13.SynchronousWebRequest.cs" />
@@ -54,8 +55,14 @@
     <Compile Include="Listing18.15.AsynchronousWebRequestUsingTaskAsynchronyPattern.cs" />
     <Compile Include="Listing18.16.AsynchronousAsALambda.cs" />
     <Compile Include="Listing18.17.ImplementingCustomAsynchronousMethod.cs" />
+    <Compile Include="Listing18.18.CustomMethodWithProgressSupport.cs" />
     <Compile Include="Listing18.21.SynchronousHighLatencyWPF.cs" />
     <Compile Include="Listing18.22.AsynchronousHighLatencyWPF.cs" />
+    <Compile Include="Listing18.25.ParallelPiCalculation.cs" />
+    <Compile Include="Listing18.26.ParallelForeachLoop.cs" />
+    <Compile Include="Listing18.27.UnhandledExceptionsParallelIterations.cs" />
+    <Compile Include="Listing18.28.CancelingParallelLoop.cs" />
+    <Compile Include="Listing18.29.LinqSelect.cs" />
     <Compile Include="PiCalculator+InternalPiDigitCalculator.cs" />
     <Compile Include="PiCalculator.cs" />
     <Compile Include="Program.cs" />
